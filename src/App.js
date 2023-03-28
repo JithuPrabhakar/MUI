@@ -9,7 +9,7 @@ function App() {
 
   return (
     <Box>
-      { /*<Navbar /> */}
+      <Navbar />
       <Stack direction='row' gap={2} justifyContent={"space-between"}>
         <Sidebar />
         <Feed />
